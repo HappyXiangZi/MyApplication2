@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Constrain"></activity>
+        <activity android:name=".TableActivity" />
+        <activity
+            android:name=".LinearActivity"
+            android:label="线性布局" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
